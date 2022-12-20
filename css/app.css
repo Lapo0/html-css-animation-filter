@@ -76,3 +76,21 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/*EX-10*/
+.ex-10-icon{
+    animation: spin 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
