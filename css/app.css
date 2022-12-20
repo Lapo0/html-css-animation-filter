@@ -109,4 +109,66 @@
     80%{
         transform: rotate(300deg);
     }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/*EX-12*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: left 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes left {
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 60%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: right 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes right {
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 70%;
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
+/*EX-13*/
+.ex-13-button:hover .ex-13-top-white {
+    animation: circle 2s linear;
+}
+@keyframes circle{
+    
+    0%{
+        left: 10%;
+    }
+
+    25%{
+        left: 100%;
+    }
+
+    50%{
+        bottom: 100%;
+    }
 }
