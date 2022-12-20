@@ -2,7 +2,6 @@
 .ex-1-square{
     transition: background-color 2s;
 }
-
 .ex-1-square:hover{
     background-color: red;
 }
@@ -12,8 +11,18 @@
     transition: width 2s;
     transition-timing-function: cubic-bezier(.13,.66,.58,1.06);
 }
-
 .ex-2-square:active{
     width: 100%;
+}
+
+/*EX-3*/
+.ex-3-square{
+    transition-delay: 400ms;
+    transition-duration: 800ms;
+    
+}
+.ex-3-square:hover{
+    transition: border-radius 600ms;
+    border-radius: 50%;
 }
 
