@@ -94,3 +94,19 @@
         transform: rotate(360deg);
     }
 }
+
+/*EX-11*/
+.ex-11-icon:hover{
+    animation: half-spin 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes half-spin {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    80%{
+        transform: rotate(300deg);
+    }
+}
